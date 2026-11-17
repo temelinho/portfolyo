@@ -3,23 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammet Temel — Portfolyo</title>
-  <meta name="description" content="Yapay zeka, backend sistemleri, mobil oyunlar ve kişisel arşiv.">
+  <title>Muhammet Temel — Yazılım Mühendisi & AI & Oyun Geliştirici</title>
+  <meta name="description" content="Muhammet Temel'in kişisel portfolyosu: Yapay zeka projeleri, Google Play mobil oyunları, canlı web siteleri ve sertifikalar.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Üst çubuk -->
+  <!-- Üst Gezinme Çubuğu -->
   <header class="topbar">
     <div class="wrap">
-      <a href="index.html" class="brand">Muhammet Temel<span class="dot">.</span></a>
-      <button class="menu-btn" aria-label="Menü" id="menuBtn">☰</button>
+      <a href="index.html" class="brand">
+        <span class="brand-avatar">MT</span>
+        <span>Muhammet Temel<span class="dot">.</span></span>
+      </a>
+      <button class="menu-btn" aria-label="Menü Aç/Kapat" id="menuBtn">☰</button>
       <nav class="nav" id="nav">
         <a href="#hakkimda">Hakkımda</a>
         <a href="#yetenekler">Yetenekler</a>
         <a href="#projeler">Projeler</a>
         <a href="#oyunlar">Oyunlar</a>
-        <a href="#isler">İşler</a>
+        <a href="#isler">Siteler & Şirket</a>
         <a href="#sertifikalar">Sertifikalar</a>
         <a href="#iletisim">İletişim</a>
         <a href="arsiv.html">Arşiv</a>
@@ -28,412 +31,652 @@
   </header>
 
   <main>
-    <!-- Hero -->
-    <section class="hero hero--image">
-      <div class="hero-bg" aria-hidden="true"></div>
+    <!-- Hero Bölümü -->
+    <section class="hero">
+      <div class="hero-glow"></div>
       <div class="wrap">
-        <p class="eyebrow">Portfolyo · 2026</p>
-        <h1>Fikirleri <em>işleyen</em> ürünlere dönüştürüyorum.</h1>
+        <div class="badge-status">
+          <span class="pulse-dot"></span>
+          <span>Yeni Projelere & Girişim Fırsatlarına Açık</span>
+        </div>
+        <h1>
+          Fikirleri <span class="gradient-text">yüksek performanslı</span> ürünlere dönüştürüyorum.
+        </h1>
         <p class="lede">
-          Merhaba, ben Muhammet. İnönü Üniversitesi'nde Yazılım Mühendisliği
-          öğrencisiyim; web, backend mimarileri, yapay zeka ve Google Play'de yayınlanan
-          mobil oyunlar geliştiriyorum. Aşağıda projelerim,
-          boşluklarda ise kitaplarım ve filmlerim var.
+          Merhaba, ben <strong>Muhammet Temel</strong>. İnönü Üniversitesi Yazılım Mühendisliği öğrencisiyim. 
+          Yapay zeka (LLM/RAG, Bilgisayarla Görme), yüksek performanslı backend mimarileri, 
+          Google Play'de canlı mobil oyunlar ve ölçeklenebilir web platformları geliştiriyorum. 
+          Aynı zamanda geleceğin teknoloji şirketi <strong>Temel Technology</strong> vizyonunu inşa ediyorum.
         </p>
+
         <div class="hero-actions">
-          <a href="#projeler" class="btn btn-primary">İşlere göz at →</a>
-          <a href="#oyunlar" class="btn btn-ghost">🎮 Oyunları İncele</a>
+          <a href="#projeler" class="btn btn-primary">Seçili Projeler →</a>
+          <a href="#oyunlar" class="btn btn-play">🎮 Google Play Oyunları</a>
+          <a href="#isler" class="btn btn-ghost">🌐 Canlı Web Siteleri</a>
           <a href="https://www.linkedin.com/in/muhammet-temel-47734a2a6/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn ↗</a>
+        </div>
+
+        <!-- Hızlı İstatistikler -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Canlı Web Platformu & Girişim</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Google Play'de Canlı Oyun</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">4+</span>
+            <span class="stat-label">NASA, Roketsan & TUA Yarışması</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">AI & Core</span>
+            <span class="stat-label">RAG, Vision, Otonom ve Backend</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Hakkımda -->
+    <!-- 01 Hakkımda -->
     <section class="section" id="hakkimda">
       <div class="wrap">
         <div class="section-head">
-          <span class="num">01</span>
-          <h2>Hakkımda</h2>
-          <span class="aside">Kısa bir tanışma ve şu anda üzerinde çalıştıklarım.</span>
-        </div>
-        <div class="about-grid">
           <div>
-            <p><strong>Bir şeyler kurmayı seviyorum.</strong> Web geliştirme, backend
-              mimarileri, yapay zeka ve mobil oyun geliştirme alanlarında projeler
-              üretiyorum. Python, Java, modern web teknolojileri ve Android ekosistemiyle
-              uygulamalar geliştiriyor; veri işleme, makine öğrenmesi ve otonom sistemler
-              üzerine çalışıyorum.</p>
-            <p>Google Play Store'da aktif olarak canlıda olan mobil arcade oyunlarım
-              bulunuyor. Roketsan LevelUp ve NASA Space Apps gibi yarışma & workshop
-              süreçlerinde savunma sanayii, RAG ajanları, görüntü işleme ve uzay verisi
-              analitiği konularında deneyim kazandım.</p>
-            <p>Gündelik problemleri yapay zeka ve optimize yazılım mimarileriyle çözmeye
-              odaklıyım. Boş vaktimde kitap okuyor ve film izliyorum — hepsini
-              <a href="arsiv.html" style="border-bottom:1px solid var(--accent)">Arşiv</a>
-              sayfasında tutuyorum.</p>
+            <span class="section-tag">// 01 · Kimim Ben?</span>
+            <h2>Hakkımda & Vizyon</h2>
           </div>
-          <dl class="facts">
-            <dt>Konum</dt><dd>Malatya, Battalgazi</dd>
-            <dt>Odak</dt><dd>Backend, Yapay Zeka & Oyun</dd>
-            <dt>Eğitim</dt><dd>İnönü Ü. — Yazılım Müh.</dd>
-            <dt>Durum</dt><dd>Yeni fırsatlara açık</dd>
-          </dl>
+          <span class="aside">Kod yazmaktan öte, yaşayan ve değer üreten dijital varlıklar inşa ediyorum.</span>
+        </div>
+
+        <div class="about-card">
+          <div class="about-text">
+            <p>
+              <strong>Sürekli üreten, mühendislik disipliniyle hareket eden bir geliştiriciyim.</strong> 
+              Web platformlarından savunma sanayii odaklı derin öğrenme modellerine, otonom rota filtrelerinden mobil oyun mimarilerine kadar geniş bir spektrumda ürün geliştiriyorum.
+            </p>
+            <p>
+              Google Play Store'da aktif olarak canlıda olan iki mobil oyunum (<strong>Tiny Arcade</strong> ve <strong>Blue's River</strong>) bulunuyor. 
+              <strong>Roketsan LevelUp</strong> atölyelerinde RAG ajanları, MobileNetV2 bilgisayarla görme ve Kalman filtresiyle otonom navigasyon algoritmaları üzerine çalıştım. 
+              Ayrıca <strong>NASA Space Apps Challenge</strong> ve <strong>TUA Astro Hackathon</strong> gibi küresel ve ulusal maratonlarda uzay verisi analitiği çözümleri ürettim.
+            </p>
+            <p>
+              Gelecek vizyonum olarak ortaklarımızla birlikte <strong>Temel Technology</strong> çatısı altında yapay zeka, otonom yazılımlar ve dijital ürünler geliştiren güçlü bir teknoloji ekosistemi kuruyoruz.
+            </p>
+          </div>
+          <div class="facts-list">
+            <div class="fact-box">
+              <div class="f-label">Eğitim</div>
+              <div class="f-val">İnönü Ü. — Yazılım Mühendisliği</div>
+            </div>
+            <div class="fact-box">
+              <div class="f-label">Girişim</div>
+              <div class="f-val">Temel Technology (Kurucu Ortak)</div>
+            </div>
+            <div class="fact-box">
+              <div class="f-label">Temel Uzmanlık</div>
+              <div class="f-val">Backend, AI / RAG, Game Dev</div>
+            </div>
+            <div class="fact-box">
+              <div class="f-label">Konum & İletişim</div>
+              <div class="f-val">Malatya / Global Uzaktan Çalışma</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Yetenekler -->
+    <!-- 02 Yetenekler -->
     <section class="section" id="yetenekler">
       <div class="wrap">
         <div class="section-head">
-          <span class="num">02</span>
-          <h2>Yetenekler</h2>
-          <span class="aside">Kullandığım diller, teknolojiler ve araçlar.</span>
+          <div>
+            <span class="section-tag">// 02 · Tech Stack</span>
+            <h2>Yetenekler & Teknolojiler</h2>
+          </div>
+          <span class="aside">Projelerimde aktif olarak kullandığım mimariler ve araçlar.</span>
         </div>
+
         <div class="skills-grid">
-          <div class="skill-cat">
-            <h3>Programlama</h3>
+          <div class="skill-card">
+            <h3><span class="skill-icon">⚡</span> Backend & Sistem</h3>
             <div class="chips">
-              <span class="chip">Java</span><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">C# / C++</span>
+              <span class="chip">Python</span>
+              <span class="chip">Java 21</span>
+              <span class="chip">FastAPI</span>
+              <span class="chip">Spring Boot</span>
+              <span class="chip">Jakarta EE</span>
+              <span class="chip">RESTful API</span>
+              <span class="chip">WebSocket</span>
             </div>
           </div>
-          <div class="skill-cat">
-            <h3>Backend & Web</h3>
+
+          <div class="skill-card">
+            <h3><span class="skill-icon">🧠</span> Yapay Zeka & Veri</h3>
             <div class="chips">
-              <span class="chip">FastAPI</span><span class="chip">Spring Boot</span><span class="chip">Jakarta EE</span><span class="chip">REST API</span><span class="chip">WebSocket</span><span class="chip">HTML5 & CSS3</span>
+              <span class="chip">Gemini API & RAG</span>
+              <span class="chip">MobileNetV2</span>
+              <span class="chip">Computer Vision</span>
+              <span class="chip">Derin Öğrenme</span>
+              <span class="chip">TensorFlow</span>
+              <span class="chip">Scikit-learn</span>
+              <span class="chip">DistilBERT NLP</span>
             </div>
           </div>
-          <div class="skill-cat">
-            <h3>Yapay Zeka & Veri</h3>
+
+          <div class="skill-card">
+            <h3><span class="skill-icon">🎮</span> Mobil & Oyun Geliştirme</h3>
             <div class="chips">
-              <span class="chip">Gemini API & RAG</span><span class="chip">MobileNetV2</span><span class="chip">Bilgisayarla Görme</span><span class="chip">Derin Öğrenme</span><span class="chip">TensorFlow</span><span class="chip">Scikit-learn</span><span class="chip">Pandas & NumPy</span>
+              <span class="chip">Google Play Store Dağıtım</span>
+              <span class="chip">Android Game Architecture</span>
+              <span class="chip">Google AdMob</span>
+              <span class="chip">Google Play Games SDK</span>
+              <span class="chip">2D Oyun Fiziği</span>
             </div>
           </div>
-          <div class="skill-cat">
-            <h3>Mobil & Oyun Geliştirme</h3>
+
+          <div class="skill-card">
+            <h3><span class="skill-icon">🛰️</span> Otonom & Matematik</h3>
             <div class="chips">
-              <span class="chip">Google Play Store</span><span class="chip">Android Game Dev</span><span class="chip">Google AdMob</span><span class="chip">Google Play Games</span><span class="chip">Oyun Mekaniği</span>
+              <span class="chip">Kalman Filtresi</span>
+              <span class="chip">Sensör Füzyonu</span>
+              <span class="chip">Otonom Navigasyon</span>
+              <span class="chip">Mesh Ağı</span>
+              <span class="chip">Optimizasyon</span>
             </div>
           </div>
-          <div class="skill-cat">
-            <h3>Veritabanı & Sistem</h3>
+
+          <div class="skill-card">
+            <h3><span class="skill-icon">🗄️</span> Veritabanı & Cloud</h3>
             <div class="chips">
-              <span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">Docker</span><span class="chip">Git & GitHub</span><span class="chip">Sunucu Yönetimi</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Git / GitHub Actions</span>
+              <span class="chip">Linux Sunucu Yönetimi</span>
             </div>
           </div>
-          <div class="skill-cat">
-            <h3>Otonom & Diğer</h3>
+
+          <div class="skill-card">
+            <h3><span class="skill-icon">🌐</span> Modern Web & Vitrin</h3>
             <div class="chips">
-              <span class="chip">Kalman Filtresi</span><span class="chip">Sensör Füzyonu</span><span class="chip">Veri Yapıları</span><span class="chip">Problem Çözme</span><span class="chip">Takım Çalışması</span>
+              <span class="chip">HTML5 / Modern CSS3</span>
+              <span class="chip">JavaScript (ES6+)</span>
+              <span class="chip">React</span>
+              <span class="chip">SEO & Performance</span>
+              <span class="chip">Responsive UI/UX</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Projeler -->
+    <!-- 03 Seçili Projeler -->
     <section class="section" id="projeler">
       <div class="wrap">
         <div class="section-head">
-          <span class="num">03</span>
-          <h2>Seçili Projeler</h2>
-          <span class="aside">Öncelik burada. Yapay zeka ve sistem projelerinden seçki.</span>
+          <div>
+            <span class="section-tag">// 03 · Mühendislik Projeleri</span>
+            <h2>Seçili Projeler</h2>
+          </div>
+          <span class="aside">Yapay zeka, otonom sistemler ve savunma sanayii projelerim.</span>
         </div>
+
         <div class="projects">
-
-          <a class="project" href="https://github.com/temelinho?tab=repositories&q=roketsan" target="_blank" rel="noopener">
-            <span class="p-num">/01</span>
-            <div class="p-body">
-              <h3>Roketsan LevelUp — Savunma & Yapay Zeka Atölyesi</h3>
-              <p>Roketsan LevelUp 3 günlük serisi kapsamında geliştirilen projeler: Gemini API ile doküman analizi ve RAG tabanlı akıllı asistan, MobileNetV2 & YSA mimarileri ile görüntü sınıflandırma ve Kalman filtresi / sensör füzyonu ile otonom navigasyon algoritmaları.</p>
+          <!-- Roketsan -->
+          <a class="project-card" href="https://github.com/temelinho?tab=repositories&q=roketsan" target="_blank" rel="noopener">
+            <span class="p-index">/01</span>
+            <div class="p-content">
+              <h3>Roketsan LevelUp — Savunma Sanayii & AI Atölyesi</h3>
+              <p>3 günlük yoğun atölye serisi: 1. Gün Gemini API ile RAG tabanlı doküman analiz ajanı, 2. Gün MobileNetV2 ve YSA mimarileriyle bilgisayarla görme & transfer learning, 3. Gün Kalman filtresi ve sensör füzyonu ile otonom navigasyon ve rota tahmini algoritmaları.</p>
               <div class="p-tags">
-                <span class="tag">Gemini API</span><span class="tag">RAG</span><span class="tag">MobileNetV2</span><span class="tag">Computer Vision</span><span class="tag">Kalman Filter</span><span class="tag">Otonom</span>
+                <span class="tag">Gemini API</span>
+                <span class="tag">RAG Ajanı</span>
+                <span class="tag">MobileNetV2</span>
+                <span class="tag">Kalman Filtresi</span>
+                <span class="tag">Otonom Navigasyon</span>
               </div>
             </div>
-            <div class="p-meta">2026<br><span class="p-arrow">↗</span></div>
+            <div class="p-action">↗</div>
           </a>
 
-          <a class="project" href="#">
-            <span class="p-num">/02</span>
-            <div class="p-body">
+          <!-- Datathon 2026 -->
+          <div class="project-card">
+            <span class="p-index">/02</span>
+            <div class="p-content">
               <h3>Datathon 2026 — Öğrenci Başarı Tahmini</h3>
-              <p>Tablo verileri ile Türkçe mentor yorumlarını birlikte işleyen hibrit
-                mimari. CatBoost, LightGBM ve fine-tuned Türkçe DistilBERT'i tek bir
-                ensemble'da birleştirdim; test-weighted doğrulama, global varyans
-                ölçekleme ve olasılık tabanlı kalibrasyonlarla public liderlik
-                tablosunda 85.57 RMSE skoruna ulaştım.</p>
+              <p>Tablo verileri ile Türkçe mentor yorumlarını birlikte işleyen hibrit mimari. CatBoost, LightGBM ve fine-tuned Türkçe DistilBERT'i tek bir ensemble'da birleştirdim; test-weighted doğrulama, global varyans ölçekleme ve olasılık kalibrasyonlarıyla 85.57 RMSE skoruna ulaştım.</p>
               <div class="p-tags">
-                <span class="tag">CatBoost</span><span class="tag">LightGBM</span><span class="tag">DistilBERT</span><span class="tag">NLP</span><span class="tag">Ensemble</span>
+                <span class="tag">CatBoost</span>
+                <span class="tag">LightGBM</span>
+                <span class="tag">DistilBERT</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Ensemble ML</span>
               </div>
             </div>
-            <div class="p-meta">2026<br><span class="p-arrow">↗</span></div>
-          </a>
+            <div class="p-action">✦</div>
+          </div>
 
-          <a class="project" href="#">
-            <span class="p-num">/03</span>
-            <div class="p-body">
+          <!-- Afet & Acil Durum -->
+          <div class="project-card">
+            <span class="p-index">/03</span>
+            <div class="p-content">
               <h3>Afet ve Acil Durum İletişim Sistemi</h3>
-              <p>Yapay zeka destekli, gerçek zamanlı acil durum yönetim platformu.
-                İnternet altyapısı olmadan cihazlar arası mesh ağıyla iletişim; NLP
-                ile acil mesajların analiz edilip önceliklendirilmesi.</p>
+              <p>Yapay zeka destekli, gerçek zamanlı acil durum yönetim platformu. İnternet altyapısının çöktüğü senaryolarda cihazlar arası mesh ağıyla iletişim; doğal dil işleme (NLP) ile acil mesajların analiz edilip otomatik önceliklendirilmesi.</p>
               <div class="p-tags">
-                <span class="tag">Java 21</span><span class="tag">Spring Boot</span><span class="tag">WebSocket</span><span class="tag">FastAPI</span><span class="tag">Docker</span>
+                <span class="tag">Java 21</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Mesh Network</span>
+                <span class="tag">WebSocket</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">Docker</span>
               </div>
             </div>
-            <div class="p-meta">Oca 2026<br><span class="p-arrow">↗</span></div>
-          </a>
+            <div class="p-action">✦</div>
+          </div>
 
-          <a class="project" href="#">
-            <span class="p-num">/04</span>
-            <div class="p-body">
+          <!-- Bilgi Takas -->
+          <div class="project-card">
+            <span class="p-index">/04</span>
+            <div class="p-content">
               <h3>Bilgi Takas Sistemi</h3>
-              <p>Öğrencilerin beceri paylaşıp ekip arkadaşı bulabildiği ve ortak
-                projeler oluşturabildiği web platformu. Kullanıcı eşleştirme ve
-                gerçek zamanlı veri iletişimi.</p>
+              <p>Öğrencilerin ve araştırmacıların becerilerini takas edebildiği, ortak proje arkadaşı bulduğu etkileşimli web platformu. Akıllı kullanıcı eşleştirme ve anlık veri iletim mimarisi.</p>
               <div class="p-tags">
-                <span class="tag">React</span><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">PostgreSQL</span>
+                <span class="tag">React</span>
+                <span class="tag">Python</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">PostgreSQL</span>
               </div>
             </div>
-            <div class="p-meta">Eki 2025<br><span class="p-arrow">↗</span></div>
-          </a>
+            <div class="p-action">✦</div>
+          </div>
 
-          <a class="project" href="#">
-            <span class="p-num">/05</span>
-            <div class="p-body">
+          <!-- Akustik Olay -->
+          <div class="project-card">
+            <span class="p-index">/05</span>
+            <div class="p-content">
               <h3>Akustik Olay Algılama ve Sınıflandırma</h3>
-              <p>Mutfak güvenliği için pişirme süreçlerini gerçek zamanlı analiz eden
-                ses işleme sistemi. Mel-spektrogram verileriyle hibrit CRNN
-                (CNN + LSTM) modeli tasarlandı.</p>
+              <p>Mutfak güvenliği için pişirme seslerini gerçek zamanlı analiz eden ses işleme sistemi. Mel-spektrogram verileriyle hibrit CRNN (CNN + LSTM) derin öğrenme modeli tasarlandı.</p>
               <div class="p-tags">
-                <span class="tag">TensorFlow</span><span class="tag">Librosa</span><span class="tag">FastAPI</span><span class="tag">React</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Librosa</span>
+                <span class="tag">CRNN</span>
+                <span class="tag">FastAPI</span>
               </div>
             </div>
-            <div class="p-meta">Mar 2025<br><span class="p-arrow">↗</span></div>
-          </a>
+            <div class="p-action">✦</div>
+          </div>
 
-          <a class="project" href="#">
-            <span class="p-num">/06</span>
-            <div class="p-body">
-              <h3>Pankreas Tümör Segmentasyonu ve Risk Analizi</h3>
-              <p>Pankreas tümörleri ve damar yapılarının segmentasyonuyla cerrahi
-                risk analizi yapan medikal görüntü işleme sistemi. nnU-Net tabanlı
-                segmentasyon, Dice ve Hausdorff metrikleriyle değerlendirme.</p>
+          <!-- Pankreas Segmentasyon -->
+          <div class="project-card">
+            <span class="p-index">/06</span>
+            <div class="p-content">
+              <h3>Pankreas Tümör Segmentasyonu ve Cerrahi Risk Analizi</h3>
+              <p>Pankreas tümörleri ve damar yapılarının 3D medikal segmentasyonuyla operasyon öncesi risk analizi yapan yapay zeka sistemi. nnU-Net tabanlı segmentasyon, Dice ve Hausdorff metrikleriyle klinik değerlendirme.</p>
               <div class="p-tags">
-                <span class="tag">nnU-Net</span><span class="tag">TensorFlow</span><span class="tag">Medical Imaging</span>
+                <span class="tag">nnU-Net</span>
+                <span class="tag">Medikal AI</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Segmentasyon</span>
               </div>
             </div>
-            <div class="p-meta">Oca 2025<br><span class="p-arrow">↗</span></div>
-          </a>
-
+            <div class="p-action">✦</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Oyunlar (Google Play Store) -->
+    <!-- 04 Oyunlar (Google Play Store) -->
     <section class="section" id="oyunlar">
       <div class="wrap">
         <div class="section-head">
-          <span class="num">04</span>
-          <h2>Oyunlar & Mobil Projeler</h2>
-          <span class="aside">Google Play Store üzerinde aktif yayında olan mobil oyunlarım.</span>
+          <div>
+            <span class="section-tag">// 04 · Canlı Mobil Oyunlar</span>
+            <h2>Google Play Arcade Vitrini</h2>
+          </div>
+          <span class="aside">Google Play Store üzerinde aktif indirilebilir ve oynanabilir oyunlarım.</span>
         </div>
-        <div class="games-grid">
 
+        <div class="games-grid">
+          <!-- Tiny Arcade -->
           <article class="game-card">
             <div class="game-header">
-              <div class="game-badge">Google Play · Canlıda</div>
-              <div class="game-icon-box">🎮</div>
+              <span class="game-badge">Google Play · Canlıda</span>
+              <div class="game-avatar">🕹️</div>
             </div>
             <h3>Tiny Arcade — 3MB 13 Oyun</h3>
-            <p>Sadece 3 MB ultra hafif boyutuyla 13 farklı retro ve arcade oyununu tek bir pakette sunan mobil oyun. Google Play Games liderlik tablosu entegrasyonu, Google AdMob reklam mimarisi ve PRO abonelik sistemiyle baştan sona eksiksiz bir mobil deneyim.</p>
+            <p>
+              Ultra kompakt 3 MB boyutuyla içerisinde 13 farklı retro arcade oyununu barındıran komple mobil deneyim. 
+              Google Play Games liderlik tablosu entegrasyonuyla küresel skor takibi, AdMob reklam optimizasyonu ve kesintisiz PRO abonelik sistemiyle geliştirildi.
+            </p>
             <div class="p-tags" style="margin-bottom: 1.2rem;">
-              <span class="tag">Google Play</span><span class="tag">Arcade</span><span class="tag">AdMob</span><span class="tag">Play Games</span><span class="tag">Mobile</span>
+              <span class="tag">3 MB Boyut</span>
+              <span class="tag">13 Retro Oyun</span>
+              <span class="tag">Google Play Games</span>
+              <span class="tag">AdMob & PRO</span>
             </div>
-            <div class="game-actions">
-              <span style="font-size: .82rem; color: var(--muted);">Boyut: ~3 MB</span>
-              <a href="https://play.google.com/store/apps/details?id=com.temel.tinyarcade" target="_blank" rel="noopener" class="play-btn">
-                Google Play'de Oyna ↗
+            <div class="game-footer">
+              <span class="game-size">Android 7.0+ · Aktif</span>
+              <a href="https://play.google.com/store/apps/details?id=com.temel.tinyarcade" target="_blank" rel="noopener" class="playstore-btn">
+                <span>Google Play'de Gör ↗</span>
               </a>
             </div>
           </article>
 
+          <!-- Upstream (Blue's River) -->
           <article class="game-card">
             <div class="game-header">
-              <div class="game-badge">Google Play · Canlıda</div>
-              <div class="game-icon-box">🐟</div>
+              <span class="game-badge">Google Play · Canlıda</span>
+              <div class="game-avatar">🌊</div>
             </div>
             <h3>Blue's River: Swim & Grow (Upstream)</h3>
-            <p>Nehir akıntısında akıntıya karşı yüzerek engellerden ve tehlikelerden kaçtığınız, topladığınız kaynaklarla karakterinizi büyütüp hayatta kalmaya çalıştığınız refleks ve beceri odaklı 2D mobil arcade oyunu.</p>
+            <p>
+              Hızlı ve dinamik nehir akıntısında engellerden kaçarak hayatta kalmaya ve topladığınız besinlerle büyümeye odaklanan refleks ve beceri oyunu. Akıcı 2D fizik dinamikleri, responsive mobil kontroller ve sürükleyici oyun döngüsü.
+            </p>
             <div class="p-tags" style="margin-bottom: 1.2rem;">
-              <span class="tag">Google Play</span><span class="tag">2D Arcade</span><span class="tag">Fizik & Hareket</span><span class="tag">Android</span>
+              <span class="tag">2D Arcade</span>
+              <span class="tag">Fizik & Refleks</span>
+              <span class="tag">Mobil Oyun Mekaniği</span>
+              <span class="tag">Google Play</span>
             </div>
-            <div class="game-actions">
-              <span style="font-size: .82rem; color: var(--muted);">Mobil Arcade</span>
-              <a href="https://play.google.com/store/apps/details?id=com.emircan.upstream" target="_blank" rel="noopener" class="play-btn">
-                Google Play'de Oyna ↗
+            <div class="game-footer">
+              <span class="game-size">Android · Canlıda</span>
+              <a href="https://play.google.com/store/apps/details?id=com.emircan.upstream" target="_blank" rel="noopener" class="playstore-btn">
+                <span>Google Play'de Gör ↗</span>
               </a>
             </div>
           </article>
-
         </div>
       </div>
     </section>
 
-    <!-- Müşteri Çalışmaları -->
+    <!-- 05 Canlı Siteler & Şirketimiz -->
     <section class="section" id="isler">
       <div class="wrap">
         <div class="section-head">
-          <span class="num">05</span>
-          <h2>Müşteri Çalışmaları</h2>
-          <span class="aside">Freelance ve müşteriler için teslim ettiğim siteler.</span>
+          <div>
+            <span class="section-tag">// 05 · Canlı Siteler & Girişim</span>
+            <h2>Girişim & Canlı Web Platformları</h2>
+          </div>
+          <span class="aside">Geliştirdiğim, yayında olan kurumsal, e-ticaret ve hizmet siteleri.</span>
         </div>
+
         <div class="work-grid">
-
-          <a class="work" href="https://manavgatevtemizlik.com.tr" target="_blank" rel="noopener">
-            <div class="w-thumb"><span>M</span></div>
-            <div class="w-body">
-              <h3>Manavgat Ev Temizlik</h3>
-              <div class="w-meta">
-                <span class="w-type">manavgatevtemizlik.com.tr</span>
-                <span class="w-year">Tem 2026</span>
+          <!-- ÖNE ÇIKAN ŞİRKET KARTI: Temel Technology -->
+          <div class="work-featured">
+            <div>
+              <h3>Temel Technology</h3>
+              <p>
+                Geleceğin yazılım, yapay zeka ve yüksek teknoloji çözümlerini inşa ettiğimiz teknoloji girişimimiz. 
+                Web sistemleri, mobil oyunlar ve yapay zeka odaklı kurumsal ürünlerimizi tek bir güçlü çatı altında topluyoruz.
+              </p>
+              <div class="p-tags" style="margin-top: 1rem;">
+                <span class="tag">Teknoloji Girişimi</span>
+                <span class="tag">Yazılım & AI</span>
+                <span class="tag">Kurucu Ortak</span>
+                <span class="tag">temeltechnology.com.tr</span>
               </div>
             </div>
-          </a>
+            <div>
+              <a href="https://temeltechnology.com.tr" target="_blank" rel="noopener" class="btn btn-primary" style="white-space:nowrap;">
+                Platformu Ziyaret Et ↗
+              </a>
+            </div>
+          </div>
 
-          <a class="work" href="https://kıbrısevtemizlik.com.tr" target="_blank" rel="noopener">
-            <div class="w-thumb"><span>K</span></div>
-            <div class="w-body">
-              <h3>Kıbrıs Ev Temizlik</h3>
-              <div class="w-meta">
-                <span class="w-type">kıbrısevtemizlik.com.tr</span>
-                <span class="w-year">Tem 2026</span>
+          <!-- Lady Lüks -->
+          <div class="work-card">
+            <div class="work-thumb">
+              <div class="w-icon">L</div>
+              <span class="w-tag">E-Ticaret & Moda</span>
+            </div>
+            <div class="work-body">
+              <h3>Lady Lüks</h3>
+              <div class="w-domain">ladyluks.com.tr</div>
+              <p style="color:var(--text-muted); font-size:.9rem; line-height:1.5;">Modern, şık ve responsive e-ticaret & marka vitrini web sitesi.</p>
+              <div class="w-footer">
+                <span style="font-size:.78rem; color:var(--text-dim);">Yayında</span>
+                <a href="https://ladyluks.com.tr" target="_blank" rel="noopener" class="w-link">Siteyi Aç ↗</a>
               </div>
             </div>
-          </a>
+          </div>
 
-          <a class="work" href="https://elivadigital.com.tr" target="_blank" rel="noopener">
-            <div class="w-thumb"><span>E</span></div>
-            <div class="w-body">
+          <!-- Eliva Moss -->
+          <div class="work-card">
+            <div class="work-thumb">
+              <div class="w-icon">M</div>
+              <span class="w-tag">Kurumsal & Tasarım</span>
+            </div>
+            <div class="work-body">
+              <h3>Eliva Moss</h3>
+              <div class="w-domain">elivamoss.com.tr</div>
+              <p style="color:var(--text-muted); font-size:.9rem; line-height:1.5;">Tasarım ve modern yeşil mimari odaklı kurumsal vitrin ve tanıtım platformu.</p>
+              <div class="w-footer">
+                <span style="font-size:.78rem; color:var(--text-dim);">Yayında</span>
+                <a href="https://elivamoss.com.tr" target="_blank" rel="noopener" class="w-link">Siteyi Aç ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Eliva Digital -->
+          <div class="work-card">
+            <div class="work-thumb">
+              <div class="w-icon">E</div>
+              <span class="w-tag">Dijital Ajans</span>
+            </div>
+            <div class="work-body">
               <h3>Eliva Digital</h3>
-              <div class="w-meta">
-                <span class="w-type">elivadigital.com.tr</span>
-                <span class="w-year">Tem 2026</span>
+              <div class="w-domain">elivadigital.com.tr</div>
+              <p style="color:var(--text-muted); font-size:.9rem; line-height:1.5;">Dijital ajans hizmetleri, marka yönetimi ve yazılım çözümleri platformu.</p>
+              <div class="w-footer">
+                <span style="font-size:.78rem; color:var(--text-dim);">Yayında</span>
+                <a href="https://elivadigital.com.tr" target="_blank" rel="noopener" class="w-link">Siteyi Aç ↗</a>
               </div>
             </div>
-          </a>
+          </div>
 
-          <a class="work" href="https://alanyacekicicilingir.com.tr" target="_blank" rel="noopener">
-            <div class="w-thumb"><span>A</span></div>
-            <div class="w-body">
+          <!-- Manavgat Ev Temizlik -->
+          <div class="work-card">
+            <div class="work-thumb">
+              <div class="w-icon">M</div>
+              <span class="w-tag">Hizmet Portalı</span>
+            </div>
+            <div class="work-body">
+              <h3>Manavgat Ev Temizlik</h3>
+              <div class="w-domain">manavgatevtemizlik.com.tr</div>
+              <p style="color:var(--text-muted); font-size:.9rem; line-height:1.5;">Bölgesel temizlik hizmetleri ve online rezervasyon odaklı kurumsal web sitesi.</p>
+              <div class="w-footer">
+                <span style="font-size:.78rem; color:var(--text-dim);">Yayında</span>
+                <a href="https://manavgatevtemizlik.com.tr" target="_blank" rel="noopener" class="w-link">Siteyi Aç ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kıbrıs Ev Temizlik -->
+          <div class="work-card">
+            <div class="work-thumb">
+              <div class="w-icon">K</div>
+              <span class="w-tag">Bölgesel Hizmet</span>
+            </div>
+            <div class="work-body">
+              <h3>Kıbrıs Ev Temizlik</h3>
+              <div class="w-domain">kıbrısevtemizlik.com.tr</div>
+              <p style="color:var(--text-muted); font-size:.9rem; line-height:1.5;">Kuzey Kıbrıs genelinde profesyonel temizlik hizmetleri için web platformu.</p>
+              <div class="w-footer">
+                <span style="font-size:.78rem; color:var(--text-dim);">Yayında</span>
+                <a href="https://kıbrısevtemizlik.com.tr" target="_blank" rel="noopener" class="w-link">Siteyi Aç ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alanya Çekici & Çilingir -->
+          <div class="work-card">
+            <div class="work-thumb">
+              <div class="w-icon">A</div>
+              <span class="w-tag">Acil Yol Yardım</span>
+            </div>
+            <div class="work-body">
               <h3>Alanya Çekici & Çilingir</h3>
-              <div class="w-meta">
-                <span class="w-type">alanyacekicicilingir.com.tr</span>
-                <span class="w-year">Tem 2026</span>
+              <div class="w-domain">alanyacekicicilingir.com.tr</div>
+              <p style="color:var(--text-muted); font-size:.9rem; line-height:1.5;">7/24 hızlı oto kurtarma, çekici ve çilingir acil çağrı ve konum entegrasyonlu portal.</p>
+              <div class="w-footer">
+                <span style="font-size:.78rem; color:var(--text-dim);">Yayında</span>
+                <a href="https://alanyacekicicilingir.com.tr" target="_blank" rel="noopener" class="w-link">Siteyi Aç ↗</a>
               </div>
             </div>
-          </a>
+          </div>
 
-          <a class="work" href="https://alanyaevtemizlik.com.tr" target="_blank" rel="noopener">
-            <div class="w-thumb"><span>A</span></div>
-            <div class="w-body">
+          <!-- Alanya Ev Temizlik -->
+          <div class="work-card">
+            <div class="work-thumb">
+              <div class="w-icon">A</div>
+              <span class="w-tag">Hizmet Portalı</span>
+            </div>
+            <div class="work-body">
               <h3>Alanya Ev Temizlik</h3>
-              <div class="w-meta">
-                <span class="w-type">alanyaevtemizlik.com.tr</span>
-                <span class="w-year">Tem 2026</span>
+              <div class="w-domain">alanyaevtemizlik.com.tr</div>
+              <p style="color:var(--text-muted); font-size:.9rem; line-height:1.5;">Alanya merkez ve çevre ilçelere yönelik ev ve villa temizlik hizmetleri sitesi.</p>
+              <div class="w-footer">
+                <span style="font-size:.78rem; color:var(--text-dim);">Yayında</span>
+                <a href="https://alanyaevtemizlik.com.tr" target="_blank" rel="noopener" class="w-link">Siteyi Aç ↗</a>
               </div>
             </div>
-          </a>
+          </div>
 
-          <a class="work" href="https://alanyaklimatemizligi.com" target="_blank" rel="noopener">
-            <div class="w-thumb"><span>A</span></div>
-            <div class="w-body">
+          <!-- Alanya Klima Temizliği -->
+          <div class="work-card">
+            <div class="work-thumb">
+              <div class="w-icon">A</div>
+              <span class="w-tag">Teknik Servis</span>
+            </div>
+            <div class="work-body">
               <h3>Alanya Klima Temizliği</h3>
-              <div class="w-meta">
-                <span class="w-type">alanyaklimatemizligi.com</span>
-                <span class="w-year">Tem 2026</span>
+              <div class="w-domain">alanyaklimatemizligi.com</div>
+              <p style="color:var(--text-muted); font-size:.9rem; line-height:1.5;">Klima bakım, dezenfeksiyon ve servis hizmetleri odaklı hızlı vitrin sitesi.</p>
+              <div class="w-footer">
+                <span style="font-size:.78rem; color:var(--text-dim);">Yayında</span>
+                <a href="https://alanyaklimatemizligi.com" target="_blank" rel="noopener" class="w-link">Siteyi Aç ↗</a>
               </div>
             </div>
-          </a>
-
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Sertifikalar -->
+    <!-- 06 Sertifikalar & Başarılar -->
     <section class="section" id="sertifikalar">
       <div class="wrap">
         <div class="section-head">
-          <span class="num">06</span>
-          <h2>Sertifikalar & Başarılar</h2>
-          <span class="aside">Tamamladığım eğitimler, yarışmalar ve belgeler.</span>
+          <div>
+            <span class="section-tag">// 06 · Eğitim & Başarılar</span>
+            <h2>Sertifikalar & Hackathonlar</h2>
+          </div>
+          <span class="aside">Savunma sanayii, yapay zeka, uzay teknolojileri ve küresel yarışmalar.</span>
         </div>
+
         <div class="cert-grid">
-          <div class="cert">
-            <div class="c-issuer">Roketsan LevelUp</div>
-            <h4>Gemini API ile RAG Agent Geliştirme</h4>
-            <div class="c-date">2026 · Başarı Sertifikası</div>
+          <div class="cert-card">
+            <span class="cert-issuer">Roketsan LevelUp Workshop</span>
+            <h4>Gemini API ile RAG Tabanlı Akıllı Ajan Geliştirme</h4>
+            <span class="cert-date">2026 · Başarı Sertifikası</span>
           </div>
-          <div class="cert">
-            <div class="c-issuer">Roketsan LevelUp</div>
-            <h4>Görüntü İşleme, MobileNetV2 ve YSA</h4>
-            <div class="c-date">2026 · Başarı Sertifikası</div>
+
+          <div class="cert-card">
+            <span class="cert-issuer">Roketsan LevelUp Workshop</span>
+            <h4>Görüntü İşleme, MobileNetV2 ve YSA ile Derin Öğrenme</h4>
+            <span class="cert-date">2026 · Başarı Sertifikası</span>
           </div>
-          <div class="cert">
-            <div class="c-issuer">Roketsan LevelUp</div>
-            <h4>Otonom Sistemler, Filtreleme & Navigasyon</h4>
-            <div class="c-date">2026 · Başarı Sertifikası</div>
+
+          <div class="cert-card">
+            <span class="cert-issuer">Roketsan LevelUp Workshop</span>
+            <h4>Otonom Sistemler, Kalman Filtreleme ve Navigasyon</h4>
+            <span class="cert-date">2026 · Başarı Sertifikası</span>
           </div>
-          <div class="cert">
-            <div class="c-issuer">NASA Space Apps Challenge</div>
-            <h4>Uluslararası Katılımcı Sertifikası</h4>
-            <div class="c-date">2026 · Hackathon</div>
+
+          <div class="cert-card">
+            <span class="cert-issuer">NASA Space Apps Challenge</span>
+            <h4>Uluslararası Hackathon Katılımcı Sertifikası</h4>
+            <span class="cert-date">2026 · Global Hackathon</span>
           </div>
-          <div class="cert">
-            <div class="c-issuer">Datathon 2026</div>
-            <h4>Katılım Sertifikası — Yarışmacı</h4>
-            <div class="c-date">2026 · 85.57 RMSE Skoru</div>
+
+          <div class="cert-card">
+            <span class="cert-issuer">Datathon 2026</span>
+            <h4>Yarışmacı & Finalist — Öğrenci Başarı Tahmini</h4>
+            <span class="cert-date">2026 · 85.57 RMSE Skoru</span>
           </div>
-          <div class="cert">
-            <div class="c-issuer">Türkiye Uzay Ajansı (TUA)</div>
+
+          <div class="cert-card">
+            <span class="cert-issuer">Türkiye Uzay Ajansı (TUA)</span>
             <h4>Astro Hackathon — Yarışmacı</h4>
-            <div class="c-date">Nisan 2026</div>
+            <span class="cert-date">Nisan 2026 · İstanbul</span>
           </div>
-          <div class="cert">
-            <div class="c-issuer">BTK Akademi</div>
-            <h4>İngilizce — A1 Seviye</h4>
-            <div class="c-date">2026</div>
+
+          <div class="cert-card">
+            <span class="cert-issuer">BTK Akademi</span>
+            <h4>İngilizce A1 Seviye Sertifikası</h4>
+            <span class="cert-date">2026 · Dil Eğitimi</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- İletişim -->
-    <section class="section contact" id="iletisim">
+    <!-- 07 İletişim -->
+    <section class="section contact-section" id="iletisim">
       <div class="wrap">
-        <div class="section-head">
-          <span class="num">07</span>
-          <h2>İletişim</h2>
-        </div>
         <div class="contact-grid">
-          <h3>Bir proje mi var?<br><a href="mailto:temelcan3449@gmail.com">Hadi konuşalım →</a></h3>
-          <div class="contact-links">
-            <a href="mailto:temelcan3449@gmail.com"><span>E-posta</span><span>temelcan3449@gmail.com</span></a>
-            <a href="https://www.linkedin.com/in/muhammet-temel-47734a2a6/" target="_blank" rel="noopener"><span>LinkedIn</span><span>muhammet-temel-47734a2a6 ↗</span></a>
-            <a href="https://github.com/temelinho" target="_blank" rel="noopener"><span>GitHub</span><span>temelinho ↗</span></a>
-            <a href="tel:+905066922004"><span>Telefon</span><span>+90 506 692 20 04</span></a>
-            <a href="#"><span>Konum</span><span>Malatya, Battalgazi</span></a>
+          <div class="contact-cta">
+            <span class="section-tag">// 07 · Bağlantı Kur</span>
+            <h2>Bir proje, fikir veya <em>iş birliği</em> mi var?</h2>
+            <p>
+              Yapay zeka modelleri, backend mimarileri, mobil oyun geliştirme veya yeni web platformları hakkında konuşmaktan mutluluk duyarım.
+            </p>
+          </div>
+
+          <div class="contact-cards">
+            <a href="mailto:temelcan3449@gmail.com" class="contact-item">
+              <span class="c-label">✉️ E-posta</span>
+              <span class="c-val">temelcan3449@gmail.com</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/muhammet-temel-47734a2a6/" target="_blank" rel="noopener" class="contact-item">
+              <span class="c-label">💼 LinkedIn</span>
+              <span class="c-val">muhammet-temel ↗</span>
+            </a>
+
+            <a href="https://github.com/temelinho" target="_blank" rel="noopener" class="contact-item">
+              <span class="c-label">🐙 GitHub</span>
+              <span class="c-val">temelinho ↗</span>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.temel.tinyarcade" target="_blank" rel="noopener" class="contact-item">
+              <span class="c-label">🎮 Google Play</span>
+              <span class="c-val">Tiny Arcade & Upstream ↗</span>
+            </a>
+
+            <a href="tel:+905066922004" class="contact-item">
+              <span class="c-label">📱 Telefon</span>
+              <span class="c-val">+90 506 692 20 04</span>
+            </a>
+
+            <div class="contact-item">
+              <span class="c-label">📍 Konum</span>
+              <span class="c-val">Malatya, Türkiye</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Alt Bilgi (Footer) -->
   <footer>
     <div class="wrap">
-      <span>© 2026 Muhammet Temel</span>
-      <div style="display:flex; gap:1.2rem;">
-        <a href="https://www.linkedin.com/in/muhammet-temel-47734a2a6/" target="_blank" rel="noopener" style="border-bottom:1px solid var(--line)">LinkedIn</a>
-        <a href="https://github.com/temelinho" target="_blank" rel="noopener" style="border-bottom:1px solid var(--line)">GitHub</a>
+      <span>© 2026 Muhammet Temel · Tüm hakları saklıdır.</span>
+      <div style="display:flex; gap:1.5rem; align-items:center;">
+        <a href="https://temeltechnology.com.tr" target="_blank" rel="noopener" style="color:var(--accent-cyan); font-weight:600;">Temel Technology</a>
+        <a href="https://www.linkedin.com/in/muhammet-temel-47734a2a6/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/temelinho" target="_blank" rel="noopener">GitHub</a>
+        <a href="arsiv.html">Kişisel Arşiv</a>
       </div>
     </div>
   </footer>
