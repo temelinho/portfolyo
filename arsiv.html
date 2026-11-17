@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arşiv — Kitaplar, Filmler, Etkinlikler</title>
-  <meta name="description" content="Okuduğum kitaplar, izlediğim filmler ve katıldığım etkinlikler.">
+  <title>Arşiv — Kültür, Sinema ve Etkinlikler | Muhammet Temel</title>
+  <meta name="description" content="İzlediğim filmler, okuduğum kitaplar ve katıldığım etkinliklerin kişisel arşivi.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Üst Gezinme Çubuğu -->
   <header class="topbar">
     <div class="wrap">
       <a href="index.html" class="brand">
@@ -32,15 +33,14 @@
   <main>
     <section class="archive-hero">
       <div class="wrap">
-        <span class="section-tag">// Kişisel Arşiv</span>
-        <h1>Kültür & Deneyim Arşivi</h1>
-        <p>İşin dışındaki tarafım. Okuduğum kitaplar, izlediğim filmler ve
-          katıldığım etkinlikler burada — yıla göre ayrı ayrı listeleniyor.</p>
+        <span class="section-tag">// Kişisel Arşiv & Çalma Listesi</span>
+        <h1>Kültür, Sinema & Deneyim</h1>
+        <p>İşin ve kodun dışındaki dünyam. İzlediğim filmler, okuduğum kitaplar ve katıldığım maratonlar — Spotify çalma listesi formatında kronolojik olarak kayıt altında.</p>
 
         <div class="tabs" id="tabs">
-          <button class="tab active" data-panel="filmler">Filmler<span class="count">31</span></button>
-          <button class="tab" data-panel="kitaplar">Kitaplar<span class="count">3</span></button>
-          <button class="tab" data-panel="etkinlikler">Etkinlikler<span class="count">4</span></button>
+          <button class="tab active" data-panel="filmler">🎬 Filmler<span class="count">31</span></button>
+          <button class="tab" data-panel="kitaplar">📚 Kitaplar<span class="count">3</span></button>
+          <button class="tab" data-panel="etkinlikler">🏆 Etkinlikler<span class="count">4</span></button>
         </div>
 
         <div class="yearbar" id="yearbar"></div>
@@ -48,296 +48,480 @@
     </section>
 
     <div class="wrap">
-      <!-- Filmler -->
+      <!-- 🎬 Filmler Paneli (Müzik Listesi Formatı) -->
       <section class="panel active" id="filmler">
         <div class="year-group" data-year="2026">
-          <div class="year-head"><span>2026</span><em>31 film</em></div>
-          <div class="media-grid">
-          <article class="media film">
-            <div class="cover">F</div>
-            <div class="m-body">
-              <h4>From Dusk Till Dawn</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+          <div class="year-head">
+            <span>2026 İzleme Listesi</span>
+            <em>31 Yapım Kayıtlı</em>
+          </div>
+
+          <div class="tracklist">
+            <div class="track-header">
+              <span>#</span>
+              <span>Afiş</span>
+              <span>Film / Orijinal Başlık</span>
+              <span>Tür</span>
+              <span style="text-align:right;">Yıl</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">T</div>
-            <div class="m-body">
-              <h4>Together</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 01 -->
+            <div class="track-row">
+              <span class="track-num">01</span>
+              <img src="assets/covers/from_dusk_till_dawn.jpg" alt="From Dusk Till Dawn" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">From Dusk Till Dawn</span>
+                <span class="track-sub">Robert Rodriguez & Quentin Tarantino</span>
+              </div>
+              <span class="track-badge">Korku / Aksiyon</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">K</div>
-            <div class="m-body">
-              <h4>Kuluçka</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 02 -->
+            <div class="track-row">
+              <span class="track-num">02</span>
+              <div class="track-thumb-sq">🎬</div>
+              <div class="track-info">
+                <span class="track-title">Together</span>
+                <span class="track-sub">Dram / İlişki</span>
+              </div>
+              <span class="track-badge">Dram</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">B</div>
-            <div class="m-body">
-              <h4>Bugün Aslında Dündü</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 03 -->
+            <div class="track-row">
+              <span class="track-num">03</span>
+              <img src="assets/covers/kulucka.jpg" alt="Kuluçka" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Kuluçka</span>
+                <span class="track-sub">Hatching (Pahanhautoja)</span>
+              </div>
+              <span class="track-badge">Psikolojik Korku</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">B</div>
-            <div class="m-body">
-              <h4>The Black Phone</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 04 -->
+            <div class="track-row">
+              <span class="track-num">04</span>
+              <img src="assets/covers/bugun_aslinda_dundu.jpg" alt="Bugün Aslında Dündü" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Bugün Aslında Dündü</span>
+                <span class="track-sub">Groundhog Day · Bill Murray</span>
+              </div>
+              <span class="track-badge">Kült / Komedi</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">H</div>
-            <div class="m-body">
-              <h4>Hereditary</h4>
-              <div class="m-sub">İzlendi · 2026</div>
-              <p class="m-note">senin notun: “Ayin”</p>
+
+            <!-- 05 -->
+            <div class="track-row">
+              <span class="track-num">05</span>
+              <img src="assets/covers/the_black_phone.jpg" alt="The Black Phone" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">The Black Phone</span>
+                <span class="track-sub">Scott Derrickson · Ethan Hawke</span>
+              </div>
+              <span class="track-badge">Gerilim / Gizem</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">P</div>
-            <div class="m-body">
-              <h4>Pearl</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 06 -->
+            <div class="track-row">
+              <span class="track-num">06</span>
+              <img src="assets/covers/hereditary.jpg" alt="Hereditary" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Hereditary</span>
+                <span class="track-sub">Ari Aster · Not: “Ayin”</span>
+              </div>
+              <span class="track-badge">Doğaüstü Korku</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">D</div>
-            <div class="m-body">
-              <h4>Dağ Evi</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 07 -->
+            <div class="track-row">
+              <span class="track-num">07</span>
+              <img src="assets/covers/pearl.jpg" alt="Pearl" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Pearl</span>
+                <span class="track-sub">Ti West · Mia Goth</span>
+              </div>
+              <span class="track-badge">Slasher / Psikolojik</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">N</div>
-            <div class="m-body">
-              <h4>No One Will Save You</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 08 -->
+            <div class="track-row">
+              <span class="track-num">08</span>
+              <img src="assets/covers/dag_evi.jpg" alt="Dağ Evi" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Dağ Evi</span>
+                <span class="track-sub">The Lodge</span>
+              </div>
+              <span class="track-badge">Psikolojik Gerilim</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">C</div>
-            <div class="m-body">
-              <h4>Companion</h4>
-              <div class="m-sub">İzlendi · 2026</div>
-              <p class="m-note">senin notun: “mükemmel arkadaş robotlu”</p>
+
+            <!-- 09 -->
+            <div class="track-row">
+              <span class="track-num">09</span>
+              <img src="assets/covers/no_one_will_save_you.jpg" alt="No One Will Save You" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">No One Will Save You</span>
+                <span class="track-sub">Brian Duffield · Sessiz Gerilim</span>
+              </div>
+              <span class="track-badge">Bilim Kurgu / Uzaylı</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">Z</div>
-            <div class="m-body">
-              <h4>Zombi Filmi (?)</h4>
-              <div class="m-sub">İzlendi · 2026</div>
-              <p class="m-note">isim teyit edilecek — “ölülerin uyanışı/yürüyüşü”</p>
+
+            <!-- 10 -->
+            <div class="track-row">
+              <span class="track-num">10</span>
+              <img src="assets/covers/companion.jpg" alt="Companion" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Companion</span>
+                <span class="track-sub">Not: “Mükemmel arkadaş robotlu”</span>
+              </div>
+              <span class="track-badge">Yapay Zeka / Bilim Kurgu</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">S</div>
-            <div class="m-body">
-              <h4>Sevimli Canavarlar Üniversitesi</h4>
-              <div class="m-sub">İzlendi · 2026</div>
-              <p class="m-note">Monsters University</p>
+
+            <!-- 11 -->
+            <div class="track-row">
+              <span class="track-num">11</span>
+              <img src="assets/covers/zombi_filmi.jpg" alt="Zombi Filmi" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Zombi Filmi (?)</span>
+                <span class="track-sub">Dawn of the Dead / Ölülerin Uyanışı</span>
+              </div>
+              <span class="track-badge">Zombi / Hayatta Kalma</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">A</div>
-            <div class="m-body">
-              <h4>Arabalar</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 12 -->
+            <div class="track-row">
+              <span class="track-num">12</span>
+              <img src="assets/covers/monsters_university.jpg" alt="Sevimli Canavarlar Üniversitesi" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Sevimli Canavarlar Üniversitesi</span>
+                <span class="track-sub">Monsters University · Disney Pixar</span>
+              </div>
+              <span class="track-badge">Animasyon / Macera</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">M</div>
-            <div class="m-body">
-              <h4>Minyonlar</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 13 -->
+            <div class="track-row">
+              <span class="track-num">13</span>
+              <img src="assets/covers/arabalar.jpg" alt="Arabalar" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Arabalar</span>
+                <span class="track-sub">Cars · Şimşek McQueen</span>
+              </div>
+              <span class="track-badge">Animasyon / Kült</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">I</div>
-            <div class="m-body">
-              <h4>Insidious</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 14 -->
+            <div class="track-row">
+              <span class="track-num">14</span>
+              <img src="assets/covers/minyonlar.jpg" alt="Minyonlar" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Minyonlar</span>
+                <span class="track-sub">Minions · Illumination</span>
+              </div>
+              <span class="track-badge">Animasyon / Komedi</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">I</div>
-            <div class="m-body">
-              <h4>Insidious 2</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 15 -->
+            <div class="track-row">
+              <span class="track-num">15</span>
+              <img src="assets/covers/insidious.jpg" alt="Insidious" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Insidious</span>
+                <span class="track-sub">Ruhlar Bölgesi · James Wan</span>
+              </div>
+              <span class="track-badge">Korku / Doğaüstü</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">H</div>
-            <div class="m-body">
-              <h4>His House</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 16 -->
+            <div class="track-row">
+              <span class="track-num">16</span>
+              <img src="assets/covers/insidious_2.jpg" alt="Insidious 2" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Insidious 2</span>
+                <span class="track-sub">Ruhlar Bölgesi: Bölüm 2</span>
+              </div>
+              <span class="track-badge">Korku / Devam</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">B</div>
-            <div class="m-body">
-              <h4>Blink Twice</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 17 -->
+            <div class="track-row">
+              <span class="track-num">17</span>
+              <img src="assets/covers/his_house.jpg" alt="His House" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">His House</span>
+                <span class="track-sub">Remi Weekes · Perili Ev</span>
+              </div>
+              <span class="track-badge">Sosyal Korku / Gizem</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">B</div>
-            <div class="m-body">
-              <h4>The Belko Experiment</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 18 -->
+            <div class="track-row">
+              <span class="track-num">18</span>
+              <img src="assets/covers/blink_twice.jpg" alt="Blink Twice" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Blink Twice</span>
+                <span class="track-sub">Zoë Kravitz · Channing Tatum</span>
+              </div>
+              <span class="track-badge">Gizem / Psikolojik</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">F</div>
-            <div class="m-body">
-              <h4>Fırtına Anı</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 19 -->
+            <div class="track-row">
+              <span class="track-num">19</span>
+              <img src="assets/covers/the_belko_experiment.jpg" alt="The Belko Experiment" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">The Belko Experiment</span>
+                <span class="track-sub">James Gunn Senaryosu</span>
+              </div>
+              <span class="track-badge">Ofis Gerilim / Hayatta Kalma</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">H</div>
-            <div class="m-body">
-              <h4>Heretic</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 20 -->
+            <div class="track-row">
+              <span class="track-num">20</span>
+              <img src="assets/covers/firtina_ani.jpg" alt="Fırtına Anı" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Fırtına Anı</span>
+                <span class="track-sub">Durante la tormenta (Mirage)</span>
+              </div>
+              <span class="track-badge">Zaman / Gizem</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">W</div>
-            <div class="m-body">
-              <h4>The Witch</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 21 -->
+            <div class="track-row">
+              <span class="track-num">21</span>
+              <img src="assets/covers/heretic.jpg" alt="Heretic" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Heretic</span>
+                <span class="track-sub">A24 · Hugh Grant</span>
+              </div>
+              <span class="track-badge">Teolojik Gerilim</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">H</div>
-            <div class="m-body">
-              <h4>Havari</h4>
-              <div class="m-sub">İzlendi · 2026</div>
-              <p class="m-note">Apostle</p>
+
+            <!-- 22 -->
+            <div class="track-row">
+              <span class="track-num">22</span>
+              <img src="assets/covers/the_witch.jpg" alt="The Witch" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">The Witch</span>
+                <span class="track-sub">Robert Eggers · Anya Taylor-Joy</span>
+              </div>
+              <span class="track-badge">Folk Korku / A24</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">S</div>
-            <div class="m-body">
-              <h4>Solgun Mavi Gözler</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 23 -->
+            <div class="track-row">
+              <span class="track-num">23</span>
+              <img src="assets/covers/havari.jpg" alt="Havari" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Havari</span>
+                <span class="track-sub">Apostle · Gareth Evans</span>
+              </div>
+              <span class="track-badge">Kült / Dönem Gerilim</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">M</div>
-            <div class="m-body">
-              <h4>Mama</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 24 -->
+            <div class="track-row">
+              <span class="track-num">24</span>
+              <img src="assets/covers/solgun_mavi_gozler.jpg" alt="Solgun Mavi Gözler" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Solgun Mavi Gözler</span>
+                <span class="track-sub">The Pale Blue Eye · Christian Bale</span>
+              </div>
+              <span class="track-badge">Dedektif / Edgar Allan Poe</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">W</div>
-            <div class="m-body">
-              <h4>Weapons</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 25 -->
+            <div class="track-row">
+              <span class="track-num">25</span>
+              <img src="assets/covers/mama.jpg" alt="Mama" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Mama</span>
+                <span class="track-sub">Andy Muschietti</span>
+              </div>
+              <span class="track-badge">Korku / Doğaüstü</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">L</div>
-            <div class="m-body">
-              <h4>Lucky</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 26 -->
+            <div class="track-row">
+              <span class="track-num">26</span>
+              <div class="track-thumb-sq">🎬</div>
+              <div class="track-info">
+                <span class="track-title">Weapons</span>
+                <span class="track-sub">Zach Cregger Gerilim Projesi</span>
+              </div>
+              <span class="track-badge">Gizem / Gerilim</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">G</div>
-            <div class="m-body">
-              <h4>Greenland</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 27 -->
+            <div class="track-row">
+              <span class="track-num">27</span>
+              <img src="assets/covers/lucky.jpg" alt="Lucky" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Lucky</span>
+                <span class="track-sub">Natasha Kermani</span>
+              </div>
+              <span class="track-badge">Sürreal Gerilim</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">M</div>
-            <div class="m-body">
-              <h4>Madagaskar 2</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 28 -->
+            <div class="track-row">
+              <span class="track-num">28</span>
+              <img src="assets/covers/greenland.jpg" alt="Greenland" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Greenland</span>
+                <span class="track-sub">Gerard Butler · Kıyamet</span>
+              </div>
+              <span class="track-badge">Felaket / Hayatta Kalma</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">M</div>
-            <div class="m-body">
-              <h4>Madagaskar</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 29 -->
+            <div class="track-row">
+              <span class="track-num">29</span>
+              <img src="assets/covers/madagaskar_2.jpg" alt="Madagaskar 2" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Madagaskar 2</span>
+                <span class="track-sub">Escape 2 Africa · DreamWorks</span>
+              </div>
+              <span class="track-badge">Animasyon / Komedi</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
-          <article class="media film">
-            <div class="cover">R</div>
-            <div class="m-body">
-              <h4>Ritual</h4>
-              <div class="m-sub">İzlendi · 2026</div>
+
+            <!-- 30 -->
+            <div class="track-row">
+              <span class="track-num">30</span>
+              <img src="assets/covers/madagaskar.jpg" alt="Madagaskar" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Madagaskar</span>
+                <span class="track-sub">DreamWorks Orijinal</span>
+              </div>
+              <span class="track-badge">Animasyon / Macera</span>
+              <span class="track-meta">2026 · İzlendi</span>
             </div>
-          </article>
+
+            <!-- 31 -->
+            <div class="track-row">
+              <span class="track-num">31</span>
+              <img src="assets/covers/ritual.jpg" alt="Ritual" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">The Ritual</span>
+                <span class="track-sub">David Bruckner · İskandinav Mitolojisi</span>
+              </div>
+              <span class="track-badge">Mitoloji / Orman Korkusu</span>
+              <span class="track-meta">2026 · İzlendi</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- Kitaplar -->
+      <!-- 📚 Kitaplar Paneli (Müzik Listesi Formatı) -->
       <section class="panel" id="kitaplar">
         <div class="year-group" data-year="2026">
-          <div class="year-head"><span>2026</span><em>3 kitap</em></div>
-          <div class="media-grid">
-          <article class="media book">
-            <div class="cover">S</div>
-            <div class="m-body">
-              <h4>Sıfırdan Bire</h4>
-              <div class="m-sub">Peter Thiel · 2026</div>
+          <div class="year-head">
+            <span>2026 Okuma Listesi</span>
+            <em>3 Kitap Kayıtlı</em>
+          </div>
+
+          <div class="tracklist">
+            <div class="track-header">
+              <span>#</span>
+              <span>Kapak</span>
+              <span>Kitap & Yazar</span>
+              <span>Alan</span>
+              <span style="text-align:right;">Durum</span>
             </div>
-          </article>
-          <article class="media book">
-            <div class="cover">Z</div>
-            <div class="m-body">
-              <h4>Zengin Baba Yoksul Baba</h4>
-              <div class="m-sub">Robert Kiyosaki · 2026</div>
+
+            <div class="track-row">
+              <span class="track-num">01</span>
+              <img src="assets/covers/sifirdan_bire.jpg" alt="Sıfırdan Bire" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Sıfırdan Bire (Zero to One)</span>
+                <span class="track-sub">Peter Thiel & Blake Masters</span>
+              </div>
+              <span class="track-badge">Girişimcilik / İnovasyon</span>
+              <span class="track-meta">2026 · Okundu</span>
             </div>
-          </article>
-          <article class="media book">
-            <div class="cover">N</div>
-            <div class="m-body">
-              <h4>Nakit Akışı Çeyreği</h4>
-              <div class="m-sub">Robert Kiyosaki · 2026</div>
+
+            <div class="track-row">
+              <span class="track-num">02</span>
+              <img src="assets/covers/zengin_baba.jpg" alt="Zengin Baba Yoksul Baba" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Zengin Baba Yoksul Baba</span>
+                <span class="track-sub">Robert T. Kiyosaki</span>
+              </div>
+              <span class="track-badge">Finansal Okuryazarlık</span>
+              <span class="track-meta">2026 · Okundu</span>
             </div>
-          </article>
+
+            <div class="track-row">
+              <span class="track-num">03</span>
+              <img src="assets/covers/nakit_akisi.jpg" alt="Nakit Akışı Çeyreği" class="track-thumb" loading="lazy" onerror="this.style.display='none'">
+              <div class="track-info">
+                <span class="track-title">Nakit Akışı Çeyreği (Cashflow Quadrant)</span>
+                <span class="track-sub">Robert T. Kiyosaki</span>
+              </div>
+              <span class="track-badge">Yatırım & Varlık Yönetimi</span>
+              <span class="track-meta">2026 · Okundu</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- Etkinlikler -->
+      <!-- 🏆 Etkinlikler Paneli -->
       <section class="panel" id="etkinlikler">
         <div class="year-group" data-year="2026">
-          <div class="year-head"><span>2026</span><em>4 etkinlik</em></div>
+          <div class="year-head"><span>2026 Hackathon & Atölyeler</span><em>4 Etkinlik</em></div>
           <div class="timeline">
-          <div class="event">
-            <div class="e-date">2026</div>
-            <h4>Roketsan LevelUp Workshop — 3 Günlük Seri</h4>
-            <div class="e-place">Savunma Sanayii & Yapay Zeka Atölyesi</div>
-            <p>Roketsan LevelUp kapsamında üç ayrı alanda yoğunlaştırılmış eğitim ve proje geliştirme süreci: 1. Gün Gemini API ile doküman analizi ve RAG ajanı geliştirme, 2. Gün MobileNetV2 ile transfer learning ve görüntü işleme modelleri, 3. Gün Kalman filtresi ve sensör füzyonu tabanlı otonom navigasyon sistemleri.</p>
-          </div>
-          <div class="event">
-            <div class="e-date">2026</div>
-            <h4>NASA International Space Apps Challenge</h4>
-            <div class="e-place">Küresel Hackathon · Katılımcı</div>
-            <p>NASA'nın açık kaynaklı uzay ve yer gözlem verileri kullanılarak dünyadaki ve uzaydaki gerçek problemlere yönelik yenilikçi çözümler üretilen uluslararası hackathon maratonu.</p>
-          </div>
-          <div class="event">
-            <div class="e-date">2026</div>
-            <h4>Datathon 2026 — Yarışmacı</h4>
-            <div class="e-place">Öğrenci başarı tahmini · Ensemble ML</div>
-            <p>Tablo verileri ile Türkçe mentor yorumlarını birlikte işleyen hibrit bir mimari kurdum. CatBoost, LightGBM ve fine-tuned Türkçe DistilBERT'i ensemble ederek public liderlik tablosunda 85.57 RMSE skoruna ulaştım. Güzel bir öğrenme ve optimizasyon süreciydi.</p>
-          </div>
-          <div class="event">
-            <div class="e-date">Nisan 2026</div>
-            <h4>Türkiye Uzay Ajansı — Astro Hackathon</h4>
-            <div class="e-place">İstanbul · Yarışmacı</div>
-            <p>Uzay temalı problemlere yönelik çözümler geliştirdik. Projemiz: Güneş patlamalarını canlı NASA verileriyle analiz edip, 1.5 milyon veriyle eğittiğimiz derin öğrenme modeliyle uydu, GPS ve elektrik altyapısına verebileceği zararları öngörmek.</p>
-          </div>
+            <div class="event">
+              <div class="e-date">2026</div>
+              <h4>Roketsan LevelUp Workshop — 3 Günlük Seri</h4>
+              <div class="e-place">Savunma Sanayii & Yapay Zeka Atölyesi</div>
+              <p>Roketsan LevelUp kapsamında üç ayrı alanda yoğunlaştırılmış eğitim ve proje geliştirme süreci: 1. Gün Gemini API ile doküman analizi ve RAG ajanı geliştirme, 2. Gün MobileNetV2 ile transfer learning ve görüntü işleme modelleri, 3. Gün Kalman filtresi ve sensör füzyonu tabanlı otonom navigasyon sistemleri.</p>
+            </div>
+            <div class="event">
+              <div class="e-date">2026</div>
+              <h4>NASA International Space Apps Challenge</h4>
+              <div class="e-place">Küresel Hackathon · Katılımcı</div>
+              <p>NASA'nın açık kaynaklı uzay ve yer gözlem verileri kullanılarak dünyadaki ve uzaydaki gerçek problemlere yönelik yenilikçi çözümler üretilen uluslararası hackathon maratonu.</p>
+            </div>
+            <div class="event">
+              <div class="e-date">2026</div>
+              <h4>Datathon 2026 — Yarışmacı</h4>
+              <div class="e-place">Öğrenci başarı tahmini · Ensemble ML</div>
+              <p>Tablo verileri ile Türkçe mentor yorumlarını birlikte işleyen hibrit bir mimari kurdum. CatBoost, LightGBM ve fine-tuned Türkçe DistilBERT'i ensemble ederek public liderlik tablosunda 85.57 RMSE skoruna ulaştım. Güzel bir öğrenme ve optimizasyon süreciydi.</p>
+            </div>
+            <div class="event">
+              <div class="e-date">Nisan 2026</div>
+              <h4>Türkiye Uzay Ajansı — Astro Hackathon</h4>
+              <div class="e-place">İstanbul · Yarışmacı</div>
+              <p>Uzay temalı problemlere yönelik çözümler geliştirdik. Projemiz: Güneş patlamalarını canlı NASA verileriyle analiz edip, 1.5 milyon veriyle eğittiğimiz derin öğrenme modeliyle uydu, GPS ve elektrik altyapısına verebileceği zararları öngörmek.</p>
+            </div>
           </div>
         </div>
       </section>
